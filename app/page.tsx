@@ -145,7 +145,7 @@ const ValentineWebsite = () => {
     </div>
     <div className="flex items-center mb-4">
     <GraduationCap className="w-8 h-8 text-teal-600 mr-2" />
-      <h3 className="text-xl font-semibold text-teal-800">Vridula's Graduation</h3>
+      <h3 className="text-xl font-semibold text-teal-800">Vridula&apos;s Graduation</h3>
     </div>
     <p className="text-teal-700">
       A proud moment as you completed your degree with remarkable achievements. 
@@ -161,7 +161,7 @@ const ValentineWebsite = () => {
     </div>
     <div className="flex items-center mb-4">
     <GraduationCap className="w-8 h-8 text-teal-600 mr-2" />
-      <h3 className="text-xl font-semibold text-teal-800">Eshaan's Graduation</h3>
+      <h3 className="text-xl font-semibold text-teal-800">Eshaan&apos;s Graduation</h3>
     </div>
     <p className="text-teal-700">
       Having you by my side made this achievement even more special. 
