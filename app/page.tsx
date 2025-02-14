@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Heart, Calendar, Diamond, Star, Home, Menu, X, Camera, Dog, GraduationCap } from 'lucide-react';
+import Image from 'next/image';
 
 const ValentineWebsite = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
@@ -77,7 +78,14 @@ const ValentineWebsite = () => {
           <h1 className="text-5xl font-bold text-teal-800 mb-4">Vridula & Eshaan</h1>
           <p className="text-xl text-teal-700 mb-8">Our Love Story: From Digital Spark to Eternal Flame</p>
           <div className="relative w-full h-96 bg-teal-50 rounded-lg shadow-lg overflow-hidden mb-8">
-            <img src="/1.jpg" alt="Hero" className="w-full h-full object-cover" />
+          <div className="w-full h-64 relative">
+            <Image 
+              src="/1.jpg" 
+              alt="Test Image" 
+              fill 
+              className="object-cover"
+            />
+          </div>
           </div>
         </div>
       </header>
@@ -91,7 +99,16 @@ const ValentineWebsite = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="relative h-64 bg-teal-50 rounded-lg shadow-lg overflow-hidden">
-              <img src="/2.jpg" alt="Our First Photo" className="w-full h-full object-cover object-[center_30%]" />
+            <div className="w-full h-64 relative">
+              <Image 
+                src="/1.jpg" 
+                alt="Test Image" 
+                fill 
+                className="object-cover"
+                objectPosition="object-[center_30%]"
+              />
+            </div>
+              
             </div>
             <div className="space-y-4">
               <h3 className="text-2xl font-semibold text-teal-800">A Modern Day Romance</h3>
