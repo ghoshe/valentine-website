@@ -1,6 +1,6 @@
 'use client';  // This is important - add this at the top
 
-import React, { useState } from 'react';
+import React from 'react';
 import { Heart, Calendar, Diamond, Star, Home, Menu, X, Camera, Dog, GraduationCap } from 'lucide-react';
 
 const ValentineWebsite = () => {
