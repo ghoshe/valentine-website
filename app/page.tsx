@@ -141,7 +141,7 @@ const ValentineWebsite = () => {
   <div className="bg-white p-6 rounded-lg shadow-md">
     <div className="relative h-50 mb-4 bg-teal-50 rounded overflow-hidden">
       
-      <img src="/vridula-graduation.jpg" alt="Vridula's Graduation" className="w-full h-full object-cover  object-[center_25%]" />
+      <img src="/vridula-graduation.jpg" alt="Vridula&apos;s Graduation" className="w-full h-full object-cover  object-[center_25%]" />
     </div>
     <div className="flex items-center mb-4">
     <GraduationCap className="w-8 h-8 text-teal-600 mr-2" />
@@ -157,7 +157,7 @@ const ValentineWebsite = () => {
   <div className="bg-white p-6 rounded-lg shadow-md">
     <div className="relative h-50 mb-4 bg-teal-50 rounded overflow-hidden">
       
-      <img src="/eshaan-graduation.jpg" alt="Eshaan's Graduation" className="w-full h-full object-cover object-[center_30%]" />
+      <img src="/eshaan-graduation.jpg" alt="Eshaan&apos;s Graduation" className="w-full h-full object-cover object-[center_30%]" />
     </div>
     <div className="flex items-center mb-4">
     <GraduationCap className="w-8 h-8 text-teal-600 mr-2" />
