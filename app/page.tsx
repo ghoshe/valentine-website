@@ -308,7 +308,7 @@ const ValentineWebsite = () => {
       <footer className="bg-teal-800 text-white py-12">
         <div className="max-w-4xl mx-auto px-8 text-center">
           <Heart className="w-8 h-8 mx-auto mb-4" />
-          <p className="text-lg mb-2">Happy Valentine's Day, Vridula</p>
+          <p className="text-lg mb-2">Happy Valentine&apos;s Day, Vridula</p>
           <p className="text-sm opacity-75">Forever Yours, Eshaan</p>
         </div>
       </footer>
