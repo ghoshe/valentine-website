@@ -6,7 +6,7 @@ import { Heart, Calendar, Diamond, Star, Home, Menu, X, Camera, Dog, GraduationC
 const ValentineWebsite = () => {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
 
-  const scrollToSection = (sectionId) => {
+  const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     element?.scrollIntoView({ behavior: 'smooth' });
     setIsMenuOpen(false);
